@@ -45,3 +45,14 @@ $sub-fonts: 'Roboto', sans-serif;
     color: $color-blue-1;
 }
 
+.h6 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $color-second-text;
+
+}

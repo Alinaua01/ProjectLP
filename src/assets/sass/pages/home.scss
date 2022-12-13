@@ -57,13 +57,17 @@
 
 .features {
     &__container {
-        margin-top: 101px;
+        margin-top: 106px;
+        
+        
     }
     &__cards{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 52px;
+        padding: 80px 0;
+        
 
     }
     &__cards-item{
@@ -71,7 +75,46 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
-        max-width: 255px;
+        gap: 20px;
+        max-width: 251px;
+
+        &:nth-child(2){
+            margin-bottom:33px;
+        }
+
+    }
+    &__cards-item-text{
+        text-align: center;
+        padding: 0 10px;
+
+    }
+    &__cards-item-title{
+        text-align: center;
+    }
+
+    &__title{
+        margin-bottom: 41px;
+    }
+    &__text{
+        max-width: 532px;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 80px;
+    }
+    &__img{
+        max-width: 1177px;
+        margin-left: 150px;
+       position: absolute;
+       
+    }
+    &__icon{
+        position: relative;
+        left: 663.3px;
+        top: 235.3px;
+        transition: transform 0.25s;
+
+         &:hover {
+            transform: scale(1.1);
+         }
     }
 }

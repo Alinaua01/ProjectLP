@@ -34,6 +34,7 @@
 
     &__link-item-1 {
         color: $color-white;
+        
 
         &:hover {
             color: $color-button;
@@ -41,7 +42,7 @@
         }
     }
 
-    &__logo {}
+
 
     &__nav-label {
         display: none;
@@ -97,6 +98,7 @@
 
         &:hover {
             color: $color-button;
+            
         }
     }
 
