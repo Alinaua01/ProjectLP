@@ -3,12 +3,18 @@ body {
 }
 
 .container {
-    max-width: 1179px;
+    max-width: 1440px;
     margin: 0 auto;
-    padding: 0 16px;
+    
 }
 
 .logo {
-    max-width: 134px;
-    height: 11px;
+    max-width: 186px;
+    height: 58px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

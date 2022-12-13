@@ -11,56 +11,161 @@
 </head>
 
 <body>
-   
+
     <div class="wrapper">
+        <section class="hero">
+            <header class="header">
+                <div class="container header__container">
+                    <nav class="header__nav">
+                        <label class="header__nav-label" for="gam">
+                            <div class="header__nav-icon">
+                                <img class="header__gam-img" src="../img/icons.png" alt="=">
+                            </div>
+                        </label>
+                        <input id="gam" class="header__nav-input" type="checkbox">
+                        <ul class="header__nav-row">
+                            <li class="header__nav-item header__nav-item--active">
+                                <a class="h7 header__nav-link" href="/">Home</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a class="h7 header__nav-link" href="#">Product</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a class="h7 header__nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a class="h7 header__nav-link" href="#">About</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a class="h7 header__nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
 
-        <header class="header">
-            <div class="container header__container">
-                <img class="logo" src="./img/Logo.svg" alt="logo">
-                <nav class="header__nav">
-                   <label class="header__nav-label" for="gam">
-                    <div class="header__nav-icon"></div>
-                   </label>
-                   <input id="gam" class="header__nav-input" type="checkbox">
-                   <ul class="header__nav-row">
-                        <li class="header__nav-item header__nav-item--active">
-                            <a class="header__nav-link" href="/">Home</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">About</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">Works</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">Contact</a>
-                        </li>
-                   </ul>
-                </nav>
+                    </nav>
+
+                    <img class="logo header__logo" src="../img/Logo.svg" alt="logo">
+
+
+
+                    <div class="header__link">
+                        <a class="header__link-item" href="https://twitter.com/" target="_blank">
+                            <svg class="header__link-item-1" width="34" height="34" viewBox="0 0 34 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M33.6852 3.68529C32.4604 4.21364 31.1275 4.59388 29.7546 4.74198C31.18 3.89517 32.2474 2.55736 32.7566 0.979538C31.419 1.77521 29.9538 2.33315 28.4258 2.62861C27.7871 1.94587 27.0147 1.40197 26.1567 1.0308C25.2987 0.65963 24.3734 0.469143 23.4385 0.471208C19.6561 0.471208 16.6141 3.5372 16.6141 7.29964C16.6141 7.82798 16.6782 8.35632 16.7822 8.86465C11.1185 8.56846 6.06727 5.86271 2.70909 1.72002C2.09719 2.76516 1.77654 3.95517 1.78049 5.16625C1.78049 7.53579 2.98527 9.62515 4.82246 10.8539C3.73978 10.8113 2.68244 10.5137 1.73646 9.98538V10.0694C1.73646 13.3876 4.08198 16.1374 7.20801 16.7698C6.62106 16.9222 6.01726 17.0002 5.41084 17.0019C4.96655 17.0019 4.54628 16.9579 4.12201 16.8979C4.98657 19.6036 7.5042 21.5689 10.5021 21.6329C8.15662 23.4701 5.21872 24.5508 2.02865 24.5508C1.45628 24.5508 0.927933 24.5308 0.379578 24.4668C3.40554 26.408 6.99587 27.5288 10.8624 27.5288C23.4145 27.5288 30.283 17.13 30.283 8.10416C30.283 7.80797 30.283 7.51178 30.263 7.21558C31.5918 6.24295 32.7566 5.03817 33.6852 3.68529Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a class="header__link-item" href="https://www.facebook.com/" target="_blank">
+                            <svg class="header__link-item-1" width="34" height="34" viewBox="0 0 33 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.7505 0.989746H1.29139C0.58293 0.989746 0.0105591 1.56212 0.0105591 2.27058V31.7297C0.0105591 32.4382 0.58293 33.0105 1.29139 33.0105H30.7505C31.459 33.0105 32.0313 32.4382 32.0313 31.7297V2.27058C32.0313 1.56212 31.459 0.989746 30.7505 0.989746ZM27.0521 10.3358H24.4944C22.4891 10.3358 22.1009 11.2884 22.1009 12.6893V15.7753H26.888L26.2636 20.6065H22.1009V33.0105H17.1097V20.6105H12.9349V15.7753H17.1097V12.213C17.1097 8.07835 19.6353 5.82488 23.3257 5.82488C25.0948 5.82488 26.6118 5.95697 27.0561 6.01701V10.3358H27.0521Z"
+                                    fill="currentColor" />
+                            </svg>
+                        </a>
+                        <a class="header__link-item" href="https://www.linkedin.com/" target="_blank">
+                            <svg class="header__link-item-1" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M31.7384 0.989746H2.27924C1.57078 0.989746 0.998413 1.56212 0.998413 2.27058V31.7297C0.998413 32.4382 1.57078 33.0105 2.27924 33.0105H31.7384C32.4468 33.0105 33.0192 32.4382 33.0192 31.7297V2.27058C33.0192 1.56212 32.4468 0.989746 31.7384 0.989746ZM10.4966 28.2755H5.74549V12.9935H10.4966V28.2755ZM8.12304 10.9042C7.57839 10.9042 7.04597 10.7427 6.59311 10.4401C6.14026 10.1375 5.7873 9.70741 5.57887 9.20422C5.37044 8.70103 5.31591 8.14734 5.42216 7.61316C5.52842 7.07897 5.79069 6.58829 6.17582 6.20317C6.56094 5.81805 7.05162 5.55577 7.5858 5.44952C8.11998 5.34326 8.67368 5.3978 9.17686 5.60623C9.68005 5.81465 10.1101 6.16761 10.4127 6.62047C10.7153 7.07333 10.8768 7.60574 10.8768 8.15039C10.8728 9.67138 9.64002 10.9042 8.12304 10.9042ZM28.2841 28.2755H23.537V20.8426C23.537 19.0695 23.505 16.792 21.0674 16.792C18.5978 16.792 18.2176 18.7213 18.2176 20.7145V28.2755H13.4745V12.9935H18.0295V15.0829H18.0935C18.7259 13.8821 20.2749 12.6133 22.5884 12.6133C27.3995 12.6133 28.2841 15.7793 28.2841 19.894V28.2755Z"
+                                    fill="currentColor" />
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </div>
+            </header>
+
+            <div class="hero__container">
+                <div class="hero__row">
+                    <h1 class="title hero__row-title">
+                        The best products
+                        start with Figma
+                    </h1>
+                    <p class=" h4 hero__row-text">
+                        Most calendars are designed for teams. Slate is designed
+                        for freelancers
+                    </p>
+                </div>
+
+                <button class="button hero__button">Try For Free</button>
+
             </div>
-        </header>
+        </section>
 
-       <main class="home-page">
-          <section>
+
+
+
+        <main class="pages">
+            <section class="fetures">
+                <div class="container features__container">
+                    <p class="h2 features__title">Features</p>
+                    <p class="h4 features__text">
+                        Most calendars are designed for teams. 
+                        Slate is designed for freelancers
+                    </p>
+                    <div class="features__cards">
+                        <div class="features__cards-item">
+                            <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.6042 0.625C18.3117 0.625 21.8673 2.0978 24.4889 4.7194C27.1105 7.34101 28.5833 10.8967 28.5833 14.6042C28.5833 17.9846 27.3887 21.0854 25.3808 23.5H46.375V46.375H23.5V25.3808C21.0854 27.3887 17.9846 28.5833 14.6042 28.5833C10.8967 28.5833 7.34101 27.1105 4.7194 24.4889C2.0978 21.8673 0.625 18.3117 0.625 14.6042C0.625 10.8967 2.0978 7.34101 4.7194 4.7194C7.34101 2.0978 10.8967 0.625 14.6042 0.625Z" fill="#2091F9"/>
+                            </svg>
+                            <p class="h3 features__cards-item-title">
+                                OpenType features 
+                                Variable fonts
+                            </p>
+                            <p class="features__cards-item-text">
+                                Slate helps you see how 
+                                many more days you need 
+                                to work to reach your 
+                                financial goal.
+                            </p>
+                        </div>
+                        <div class="features__cards-item">
+                            <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.2498 48.6502C27.4031 47.0168 26.4931 42.5135 24.3931 39.6668C22.3164 36.7502 19.4464 34.7435 16.5531 32.8068C14.4887 31.5057 12.6455 29.883 11.0931 28.0002C10.4398 27.2302 9.10978 25.8068 10.4631 25.5268C11.8398 25.2468 14.2198 26.6002 15.4331 27.1135C17.5564 28.0002 19.6564 29.0268 21.6164 30.2402L23.9731 26.2735C20.3331 23.8702 15.6664 21.7468 11.3264 21.1168C8.85311 20.7435 6.23978 21.2568 5.39978 23.9402C4.65311 26.2502 5.84311 28.5835 7.19644 30.4035C10.3931 34.6735 15.3631 36.7268 19.0731 40.4135C19.8664 41.1835 20.8231 42.0935 21.2898 43.1668C21.7798 44.1935 21.6631 44.2635 20.5664 44.2635C17.6731 44.2635 14.0564 42.0002 11.6998 40.5068L9.34311 44.4735C12.9131 46.6668 18.8864 50.0968 23.2498 48.6502ZM49.1264 12.2502C49.6398 11.7368 49.6398 10.8968 49.1264 10.4068L46.0931 7.37349C45.8487 7.13795 45.5225 7.00635 45.1831 7.00635C44.8437 7.00635 44.5175 7.13795 44.2731 7.37349L41.8931 9.75349L46.7464 14.6068L49.1264 12.2502ZM26.1664 25.4802V30.3335H31.0198L45.3698 15.9835L40.5164 11.1302L26.1664 25.4802Z" fill="#2091F9"/>
+                            </svg>
+                            <p class="h3 features__cards-item-title">
+                                Design with real data
+                            </p>
+                            <p class="features__cards-item-text">
+                                Slate helps you see how 
+                                many more days you need 
+                                to work to reach your 
+                                financial goal.
+                            </p>
+                        </div>
+                        <div class="features__cards-item">
+                            <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M52.6379 11.7679L49.2321 8.36209C48.2916 7.37084 46.6396 7.37084 45.6483 8.36209L22.875 31.1354L29.8646 38.125L52.6379 15.3517C53.6291 14.3604 53.6291 12.7083 52.6379 11.7679ZM17.7916 35.5833C15.7694 35.5833 13.8299 36.3867 12.4 37.8167C10.97 39.2466 10.1666 41.1861 10.1666 43.2083C10.1666 46.5379 7.21831 48.2917 5.08331 48.2917C7.42165 51.3925 11.4375 53.375 15.25 53.375C17.9463 53.375 20.5323 52.3039 22.4389 50.3973C24.3455 48.4906 25.4166 45.9047 25.4166 43.2083C25.4166 41.1861 24.6133 39.2466 23.1833 37.8167C21.7534 36.3867 19.8139 35.5833 17.7916 35.5833Z" fill="#2091F9"/>
+                             </svg>
+                                
+                            <p class="h3 features__cards-item-title">
+                                Fastest way to 
+                                take action
+                            </p>
+                            <p class="features__cards-item-text">
+                                Slate helps you see how 
+                                many more days you need 
+                                to work to reach your 
+                                financial goal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        
+        </main>
+
+        <footer>
             <div class="container"></div>
-         
-          </section>
-          <section></section>
-          <section></section>
-          <section></section>
-          <section></section>
-          <section></section>
-       </main>
-
-       <footer>
-        <div class="container"></div>
-    </footer>
+        </footer>
 
     </div>
-    
+
 
     <!--Обовязково додавати потрібно для JS -->
     <script> var exports = {}; </script>

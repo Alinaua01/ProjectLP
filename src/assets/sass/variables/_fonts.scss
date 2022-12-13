@@ -1,5 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto&display=swap');
 
-$main-font: 'Manrope', sans-serif;
-$sub-font: 'Roboto', sans-serif;
+$main-fonts: 'Manrope', sans-serif;
+$sub-fonts: 'Roboto', sans-serif;
+
+.title {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $color-white;
+}
+
+.h2 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: $color-blue;
+}
+
+.h3 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: $color-blue;
+}
+
+.h4 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: $color-blue-1;
+}
 
