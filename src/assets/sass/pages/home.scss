@@ -1,5 +1,9 @@
 .hero {
     background-image: url(../img/bg.png);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 927px;
 
     @media (max-width: $tablet) {
@@ -46,6 +50,7 @@
         max-width: 766px;
         color: $color-white;
         margin-bottom: 70px;
+        text-align: center;
     }
 
 
@@ -94,6 +99,7 @@
 
     &__title{
         margin-bottom: 41px;
+        text-align: center;
     }
     &__text{
         max-width: 532px;
@@ -101,20 +107,189 @@
         margin: 0 auto;
         padding-bottom: 80px;
     }
+
     &__img{
         max-width: 1177px;
         margin-left: 150px;
-       position: absolute;
-       
-    }
-    &__icon{
         position: relative;
-        left: 663.3px;
+        padding-bottom: 52px;
+        
+    }
+    &__img-icon{
+        position: absolute;
+        left: 495.3px;
         top: 235.3px;
         transition: transform 0.25s;
 
          &:hover {
             transform: scale(1.1);
          }
+    }
+}
+
+.content {
+    &__container{
+        max-width: 1244px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        padding: 57px 0;
+        margin: 226px 266px;
+
+    }
+    &__row{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 17px;
+    }
+    &__row-title{
+        max-width: 335px;
+    }
+    &__button{
+        margin-top: 43px;
+    }
+    &__img{
+        width: 50%;
+    }
+    
+}
+
+.light {
+    &__container{
+        padding: 106px 50px 50px 0;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        margin: 0 168px;
+        
+    }
+    &__img{
+        width: 50%;
+    }
+    &__right{
+        padding: 121px 0 0 63px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &__right-item{
+        margin-bottom: 7px;
+    }
+    &__right-title{
+        margin-bottom: 15px;
+    }
+    &__forms{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    &__form-input{
+        background: #F4F4F4;
+        border: 1px solid #E8E8E8;
+        border-radius: 39px;
+        width: 273px;
+        height: 54px;
+        padding: 19px 39px;
+        margin: 36px 0;
+    }
+    &__button{
+        width: 172px;
+    }
+
+
+}
+
+.partners {
+    &__container{
+        padding-top: 80px;
+    }
+
+    &__title{
+        text-align: center;
+        padding: 7px 0;
+    }
+    &__text{
+        text-align: center;
+        max-width: 552px;
+        margin: 0 auto;
+    }
+
+    &__items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1075px;
+    margin: 80px 182px 220px;
+    }
+
+    &__items-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        border: 1px solid $color-border;
+        height: 160px;
+        padding: 25px 36px;
+    }
+    
+
+
+    
+}
+
+.testi {
+    &__container{
+        padding: 100px 226px;
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 80px;
+    }
+    &__content-text{
+        text-align: center;
+    }
+    &__content-item{
+        display: flex;
+        align-items: center;
+        gap: 13px;
+    }
+    &__content-item-text{
+        display: flex;
+        flex-direction: column;
+    }
+    &__button{
+        margin: 0 auto;
+        width: 276px;
+        height: 60px;
+    }
+
+
+
+    &__title{
+        text-align: center;
+        margin-bottom: 80px;
+
+    }
+    &__content-item-img{
+        max-width: 50px;
+    }
+}
+
+.pricing {
+    &__container{
+        background-color: $color-blue;
+    }
+    &__title{
+        color: $color-white;
+    }
+    &__text{
+        color: $color-white;
     }
 }
