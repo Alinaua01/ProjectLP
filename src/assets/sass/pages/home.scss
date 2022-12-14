@@ -6,9 +6,7 @@
     background-position: center;
     height: 927px;
 
-    @media (max-width: $tablet) {
-        
-    }
+    @media (max-width: $tablet) {}
 
 
     &__container {
@@ -63,19 +61,21 @@
 .features {
     &__container {
         margin-top: 106px;
-        
-        
+
+
     }
-    &__cards{
+
+    &__cards {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 52px;
         padding: 80px 0;
-        
+
 
     }
-    &__cards-item{
+
+    &__cards-item {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -83,52 +83,56 @@
         gap: 20px;
         max-width: 251px;
 
-        &:nth-child(2){
-            margin-bottom:33px;
+        &:nth-child(2) {
+            margin-bottom: 33px;
         }
 
     }
-    &__cards-item-text{
+
+    &__cards-item-text {
         text-align: center;
         padding: 0 10px;
 
     }
-    &__cards-item-title{
+
+    &__cards-item-title {
         text-align: center;
     }
 
-    &__title{
+    &__title {
         margin-bottom: 41px;
         text-align: center;
     }
-    &__text{
+
+    &__text {
         max-width: 532px;
         text-align: center;
         margin: 0 auto;
         padding-bottom: 80px;
     }
 
-    &__img{
+    &__img {
         max-width: 1177px;
         margin-left: 150px;
         position: relative;
         padding-bottom: 52px;
-        
+
     }
-    &__img-icon{
+
+    &__img-icon {
         position: absolute;
         left: 495.3px;
         top: 235.3px;
         transition: transform 0.25s;
 
-         &:hover {
+        &:hover {
             transform: scale(1.1);
-         }
+        }
     }
 }
 
 .content {
-    &__container{
+    &__container {
         max-width: 1244px;
         display: flex;
         align-items: center;
@@ -137,54 +141,64 @@
         margin: 226px 266px;
 
     }
-    &__row{
+
+    &__row {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         gap: 17px;
     }
-    &__row-title{
+
+    &__row-title {
         max-width: 335px;
     }
-    &__button{
+
+    &__button {
         margin-top: 43px;
     }
-    &__img{
+
+    &__img {
         width: 50%;
     }
-    
+
 }
 
 .light {
-    &__container{
+    &__container {
         padding: 106px 50px 50px 0;
         display: flex;
         justify-content: space-between;
         gap: 50px;
         margin: 0 168px;
-        
+
     }
-    &__img{
+
+    &__img {
         width: 50%;
     }
-    &__right{
+
+    &__right {
         padding: 121px 0 0 63px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
-    &__right-item{
+
+    &__right-item {
         margin-bottom: 7px;
     }
-    &__right-title{
+
+    &__right-title {
         margin-bottom: 15px;
     }
-    &__forms{
+
+    &__forms {
         display: flex;
         align-items: center;
         gap: 12px;
     }
-    &__form-input{
+
+    &__form-input {
         background: #F4F4F4;
         border: 1px solid #E8E8E8;
         border-radius: 39px;
@@ -193,7 +207,8 @@
         padding: 19px 39px;
         margin: 36px 0;
     }
-    &__button{
+
+    &__button {
         width: 172px;
     }
 
@@ -201,30 +216,31 @@
 }
 
 .partners {
-    &__container{
+    &__container {
         padding-top: 80px;
     }
 
-    &__title{
+    &__title {
         text-align: center;
         padding: 7px 0;
     }
-    &__text{
+
+    &__text {
         text-align: center;
         max-width: 552px;
         margin: 0 auto;
     }
 
-    &__items{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 1075px;
-    margin: 80px 182px 220px;
+    &__items {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 1075px;
+        margin: 80px 182px 220px;
     }
 
-    &__items-row{
+    &__items-row {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -234,37 +250,41 @@
         height: 160px;
         padding: 25px 36px;
     }
-    
 
 
-    
+
+
 }
 
 .testi {
-    &__container{
+    &__container {
         padding: 100px 226px;
     }
 
-    &__content{
+    &__content {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 50px;
         margin-bottom: 80px;
     }
-    &__content-text{
+
+    &__content-text {
         text-align: center;
     }
-    &__content-item{
+
+    &__content-item {
         display: flex;
         align-items: center;
         gap: 13px;
     }
-    &__content-item-text{
+
+    &__content-item-text {
         display: flex;
         flex-direction: column;
     }
-    &__button{
+
+    &__button {
         margin: 0 auto;
         width: 276px;
         height: 60px;
@@ -272,24 +292,93 @@
 
 
 
-    &__title{
+    &__title {
         text-align: center;
         margin-bottom: 80px;
 
     }
-    &__content-item-img{
+
+    &__content-item-img {
         max-width: 50px;
     }
 }
 
 .pricing {
-    &__container{
+    &__container {
         background-color: $color-blue;
+        max-width: 1777px;
     }
-    &__title{
+
+    &__title {
         color: $color-white;
+        text-align: center;
+        padding-top: 100px; 
     }
-    &__text{
+
+    &__text {
         color: $color-white;
+        text-align: center;
+        max-width: 532px;
+        margin: 0 auto;
+        padding-top: 20px;
     }
+
+    &__items {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 336px 100px;
+
+
+       
+    }
+
+    &__items-card {
+        background-color: $color-white;
+        width: 335px;
+        height: 607px;
+        padding: 40px 40px;
+        border: 1px solid $color-border-1;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin: 43px 0;
+    }
+
+    &__items-card-first-title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    &__items-card-first-text {
+        text-align: center;
+        max-width: 148px;
+    }
+
+    &__items-card-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__items-card-row-block {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    &__items-card-row-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        
+    }
+    
+    
+    
 }

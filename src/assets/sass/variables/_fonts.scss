@@ -75,3 +75,13 @@ $sub-fonts: 'Roboto', sans-serif;
     color: $color-second-text;
 
 }
+
+.h8 {
+    font-family: $main-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: $color-blue;
+}
