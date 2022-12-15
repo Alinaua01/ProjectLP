@@ -1,0 +1,76 @@
+.footer {
+    &__container {
+        background-color: $color-blue;
+        max-width: 100%;
+        padding: 150px 393px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 125px;
+
+    }
+
+    &__content-item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        width: 582px;
+    }
+
+    &__content-item-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        width: 186px;
+    }
+    &__content-item-list-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        
+    }
+
+    &__content-item-list-nav-row-link,
+    &__content-item-list-title {
+        color: $color-white;
+        &:hover {
+            border-bottom: 1px solid $color-white;
+            color: $color-button;
+        }
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        
+    }
+    &__info-item-address,
+    &__info-item-phone{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 284px;
+    }
+
+    &__info-link{
+        display: flex;
+        gap: 24px;
+    }
+    &__info-link-item-1,
+    &__info-item-phone-icon,
+    &__info-item-address-icon{
+        color: $color-white;
+        cursor: pointer;
+
+        &:hover {
+            color: $color-button;
+
+        }
+    }
+}

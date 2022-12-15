@@ -1,0 +1,60 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+
+    &__input {
+        font-family: $sub-fonts;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: $color-form;
+        display: block;
+        width: 353px;
+        height: 54px;
+        background: $color-form-bg;
+        border: 1px solid $color-form-br;
+        border-radius: 39px;
+        cursor: pointer;
+        padding: 19px 0 20px 19px;
+
+        &:hover {
+            border: 1px solid $color-form;
+        }
+
+    }
+
+    &__input-1{
+        font-family: $sub-fonts;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: 0.1px;
+        color: $color-form;
+        display: block;
+        width: 353px;
+        height: 193px;
+        background: $color-form-bg;
+        border: 1px solid $color-form-br;
+        padding: 23px 0 154px 20px;
+        cursor: pointer;
+        &:hover {
+            border: 1px solid $color-form;
+        }
+
+    }
+
+    &__button{
+        max-width: 145px;
+    }
+
+}
+
+
+
+
+

@@ -25,6 +25,7 @@
     &__link {
         display: flex;
         gap: 24px;
+        max-width: 170px;
 
         @media (max-width: $tablet) {
             display: none;
@@ -34,10 +35,12 @@
 
     &__link-item-1 {
         color: $color-white;
+        transition: transform 0.25s;
         
 
         &:hover {
             color: $color-button;
+            transform: scale(1.1);
 
         }
     }
@@ -76,7 +79,7 @@
             flex-direction: column;
             justify-content: center;
             position: fixed;
-            background-color: gray;
+            background-color: $color-grey;
             top: 0;
             left: 0;
             width: 100%;
@@ -87,12 +90,9 @@
 
 
     &__nav-link {
-        font-family: $main-fonts;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 28px;
+
         text-align: center;
-        letter-spacing: 0.2px;
+        
         color: $color-white;
         cursor: pointer;
 
@@ -107,6 +107,10 @@
 
         &:hover {
             border-bottom: 1px solid $color-white;
+        }
+
+        &--active {
+            border-bottom: 1px solid $color-black;
         }
 
 

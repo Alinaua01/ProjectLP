@@ -85,3 +85,13 @@ $sub-fonts: 'Roboto', sans-serif;
     letter-spacing: 0.2px;
     color: $color-blue;
 }
+
+.h9 {
+    font-family: $sub-fonts;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: $color-white;
+}

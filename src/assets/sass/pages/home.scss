@@ -382,3 +382,86 @@
     
     
 }
+
+.contact {
+
+    &__container {
+        padding: 50px 0;
+        margin: 153px 168px 52px;
+    }
+
+    &__title{
+        text-align: center;
+        margin-bottom: 17px;  
+    }
+    &__text{
+        text-align: center;
+        max-width: 532px;
+        margin: 0 auto;
+    }
+    &__row-left {
+        background: $color-white;
+        border: 1px solid $color-border-2;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        width: 453px;
+        height: 669px;
+        padding: 52px 50px;
+    }
+
+    &__row-left-title{
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    &__row{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        margin: 50px 106px;
+    }
+    &__row-right-items{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        max-width: 725px;
+    }
+    &__row-right-items-address,
+    &__row-right-items-phone,
+    &__row-right-items-mail{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;  
+    }
+
+    &__row-right-items-address-text{
+        text-align: center;
+        max-width: 313px;
+    }
+    &__row-right-items-mail-text{
+       margin-top: 10px;
+    }
+    &__row-right-map{
+        margin: 50px 104px;
+        max-width: 516px;
+    }
+
+    &__row-right-link {
+        display: flex;
+        gap: 24px;
+        padding: 10px;
+
+    }
+
+    &__row-right-link-item-1 {
+        color: $color-button;
+        transition: transform 0.25s;
+        
+        
+        &:hover {
+            transform: scale(1.1);
+            color: $color-blue-1;
+
+        }
+    }
+}
