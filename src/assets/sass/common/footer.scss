@@ -37,8 +37,9 @@
     &__content-item-list-nav-row-link,
     &__content-item-list-title {
         color: $color-white;
+        cursor: pointer;
         &:hover {
-            border-bottom: 1px solid $color-white;
+           
             color: $color-button;
         }
     }

@@ -8,6 +8,10 @@
         align-items: center;
         max-width: 1210px;
         padding: 54px 40px;
+        @media (max-width: $tablet) {
+            padding: 17px 16px;
+        }
+
     }
 
 
@@ -48,7 +52,7 @@
 
 
     &__nav-label {
-        display: none;
+        
 
         @media (max-width: $tablet) {
             display: block;
@@ -82,7 +86,7 @@
             background-color: $color-grey;
             top: 0;
             left: 0;
-            width: 100%;
+            width: 100vw;
             height: 100vh;
             z-index: 99;
         }
@@ -92,7 +96,7 @@
     &__nav-link {
 
         text-align: center;
-        
+
         color: $color-white;
         cursor: pointer;
 
