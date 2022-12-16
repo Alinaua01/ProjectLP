@@ -57,14 +57,16 @@
         
     }
 
-    &__content-item-list-nav-row-link,
-    &__content-item-list-title {
+    &__content-item-list-nav-row-link {
         color: $color-white;
         cursor: pointer;
         &:hover {
            
             color: $color-button;
         }
+    }
+    &__content-item-list-title{
+        color: $color-white;
     }
 
     &__info{

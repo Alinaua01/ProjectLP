@@ -294,11 +294,17 @@
         height: 54px;
         padding: 19px 39px;
         margin: 36px 0;
+        cursor: pointer;
+
+        &:hover {
+            border: 1px solid $color-form
+        }
         @media (max-width: $tablet) {
             width: 350px;
             margin: 24px 0 0;
            
         }
+
     
 
     }
@@ -492,6 +498,34 @@
         align-items: center;
         gap: 30px;
         margin: 43px 0;
+
+        &:hover .pricing__items-card-row-list-text{
+            color: $color-white;
+        }
+        &:hover .pricing__items-card-first-title{
+            color: $color-white;
+        }
+        &:hover {
+            background-color: $color-button;
+        }
+        &:hover .pricing__button{
+            background-color: $color-white;
+            color: $color-button; 
+        }
+        &:hover .pricing__items-card-row-block-title{
+            color: $color-white;
+        }
+        &:hover .pricing__items-card-first-text {
+            color: $color-white;   
+        }
+        &:hover .pricing__items-card-row-icon{
+            color: $color-white;
+        }
+        &:hover .pricing__items-card-row-block-icon{
+            color: $color-white;
+        }
+
+        
         @media (max-width: $tablet) {
             margin: 0 auto;
             
@@ -527,6 +561,11 @@
         gap: 25px;
         
     }
+    &__items-card-row-icon,
+    &__items-card-row-block-icon{
+        color: $color-blue;
+    }
+    
     
     
     
