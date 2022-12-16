@@ -25,6 +25,11 @@
             border: 1px solid $color-form;
         }
 
+        @media (max-width: $tablet) {
+            width: 280px;
+            
+         }
+
     }
 
     &__input-1{
@@ -45,6 +50,12 @@
         &:hover {
             border: 1px solid $color-form;
         }
+
+        @media (max-width: $tablet) {
+            width: 280px;
+            
+         }
+
 
     }
 
