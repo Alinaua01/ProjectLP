@@ -1,3 +1,4 @@
+/*section hero*/
 .hero {
     background-image: url(../img/bg.png);
     position: relative;
@@ -50,6 +51,7 @@
         color: $color-white;
         margin-bottom: 70px;
         text-align: center;
+
         @media (max-width: $tablet) {
             width: 353px;
         }
@@ -62,9 +64,13 @@
 
 }
 
+/*section hero end*/
+
+/*section features*/
 .features {
     &__container {
         margin-top: 106px;
+
         @media (max-width: $tablet) {
             margin-top: 80px;
         }
@@ -78,6 +84,7 @@
         align-items: center;
         gap: 52px;
         padding: 80px 0;
+
         @media (max-width: $tablet) {
             flex-direction: column;
             gap: 75px;
@@ -121,6 +128,7 @@
         text-align: center;
         margin: 0 auto;
         padding-bottom: 80px;
+
         @media (max-width: $tablet) {
             width: 285px;
             padding-bottom: 50px;
@@ -132,19 +140,19 @@
         margin-left: 150px;
         position: relative;
         padding-bottom: 52px;
+
         @media (max-width: $tablet) {
             margin: 0 auto;
             padding: 52px 0;
             width: 75%;
-            
+
         }
-        
+
 
     }
-    &__img-1{
-        @media (max-width: $tablet) {
-          
-        }
+
+    &__img-1 {
+        @media (max-width: $tablet) {}
 
     }
 
@@ -158,17 +166,22 @@
         &:hover {
             transform: scale(1.1);
         }
+
         @media (max-width: $tablet) {
             width: 61px;
             height: 61px;
             left: 118px;
             top: 104px;
-            
+
         }
 
     }
 }
 
+/*section features end*/
+
+
+/*section content*/
 .content {
     &__container {
         max-width: 1244px;
@@ -177,12 +190,13 @@
         gap: 50px;
         padding: 57px 0;
         margin: 226px 266px;
+
         @media (max-width: $tablet) {
             max-width: 378px;
             flex-direction: column;
             padding: 30px 20px;
             margin: 0px 73px;
-            
+
         }
 
 
@@ -193,22 +207,24 @@
         flex-direction: column;
         justify-content: flex-start;
         gap: 17px;
+
         @media (max-width: $tablet) {
             justify-content: center;
             text-align: center;
             align-items: center;
-            
-            
+
+
         }
 
     }
 
     &__row-title {
         max-width: 335px;
+
         @media (max-width: $tablet) {
             text-align: center;
             width: 355px;
-            
+
         }
     }
 
@@ -218,14 +234,19 @@
 
     &__img {
         width: 50%;
+
         @media (max-width: $tablet) {
             width: 100%;
-            
+
         }
     }
 
 }
 
+/*section content end*/
+
+
+/*section light*/
 .light {
     &__container {
         padding: 106px 50px 50px 0;
@@ -233,12 +254,13 @@
         justify-content: space-between;
         gap: 50px;
         margin: 0 168px;
+
         @media (max-width: $tablet) {
-           padding: 80px 7px;
-           flex-direction: column;
-           justify-content: center;
-           margin: 0 auto;
-            
+            padding: 80px 7px;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+
         }
     }
 
@@ -246,10 +268,11 @@
 
     &__img {
         width: 50%;
+
         @media (max-width: $tablet) {
-           width: 100%;
-           padding: 10px;
-          
+            width: 100%;
+            padding: 10px;
+
         }
     }
 
@@ -258,13 +281,14 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+
         @media (max-width: $tablet) {
             padding: 59px 20px;
             align-items: center;
             justify-content: center;
             text-align: center;
-           
-         }
+
+        }
 
     }
 
@@ -280,9 +304,10 @@
         display: flex;
         align-items: center;
         gap: 12px;
+
         @media (max-width: $tablet) {
             flex-direction: column;
-           
+
         }
     }
 
@@ -299,27 +324,32 @@
         &:hover {
             border: 1px solid $color-form
         }
+
         @media (max-width: $tablet) {
             width: 350px;
             margin: 24px 0 0;
-           
+
         }
 
-    
+
 
     }
 
     &__button {
         width: 172px;
+
         @media (max-width: $tablet) {
             width: 350px;
-           
+
         }
     }
 
 
 }
 
+/*section light end*/
+
+/*section partners*/
 .partners {
     &__container {
         padding-top: 80px;
@@ -334,10 +364,11 @@
         text-align: center;
         max-width: 552px;
         margin: 0 auto;
+
         @media (max-width: $tablet) {
             max-width: 378px;
             margin: 0 16px;
-           
+
         }
     }
 
@@ -348,12 +379,13 @@
         align-items: center;
         max-width: 1075px;
         margin: 80px 182px;
+
         @media (max-width: $tablet) {
             flex-direction: column;
             width: 275px;
             margin: 80px 52px;
             gap: 30px;
-           
+
         }
     }
 
@@ -366,18 +398,18 @@
         border: 1px solid $color-border;
         height: 160px;
         padding: 25px 36px;
-        
+
         @media (max-width: $tablet) {
-            &:nth-child(3n+4){
+            &:nth-child(3n+4) {
                 padding: 20px 67px;
             }
-           
+
         }
-        
-        
+
+
     }
 
-    &__button{
+    &__button {
         margin: 0 auto;
     }
 
@@ -386,12 +418,16 @@
 
 }
 
+/*section partners end*/
+
+/*section testi*/
 .testi {
     &__container {
         padding: 100px 226px;
+
         @media (max-width: $tablet) {
-           padding: 100px 26px;
-           
+            padding: 100px 26px;
+
         }
     }
 
@@ -437,24 +473,29 @@
     }
 }
 
+/*section testi end*/
+
+/*section pricing*/
 .pricing {
     &__container {
         background-color: $color-blue;
         max-width: 1777px;
+
         @media (max-width: $tablet) {
             padding-bottom: 100px;
-            
-         }
+
+        }
     }
 
     &__title {
         color: $color-white;
         text-align: center;
-        padding-top: 100px; 
+        padding-top: 100px;
+
         @media (max-width: $tablet) {
             padding: 100px 53px 7px;
-            
-         }
+
+        }
     }
 
     &__text {
@@ -463,10 +504,11 @@
         max-width: 532px;
         margin: 0 auto;
         padding-top: 20px;
+
         @media (max-width: $tablet) {
             width: 285px;
-            
-         }
+
+        }
     }
 
     &__items {
@@ -475,14 +517,15 @@
         align-items: center;
         justify-content: center;
         padding: 80px 336px 100px;
+
         @media (max-width: $tablet) {
             flex-direction: column;
             padding: 18px 0;
-            
-         }
+
+        }
 
 
-       
+
     }
 
     &__items-card {
@@ -499,37 +542,44 @@
         gap: 30px;
         margin: 43px 0;
 
-        &:hover .pricing__items-card-row-list-text{
-            color: $color-white;
-        }
-        &:hover .pricing__items-card-first-title{
-            color: $color-white;
-        }
-        &:hover {
-            background-color: $color-button;
-        }
-        &:hover .pricing__button{
-            background-color: $color-white;
-            color: $color-button; 
-        }
-        &:hover .pricing__items-card-row-block-title{
-            color: $color-white;
-        }
-        &:hover .pricing__items-card-first-text {
-            color: $color-white;   
-        }
-        &:hover .pricing__items-card-row-icon{
-            color: $color-white;
-        }
-        &:hover .pricing__items-card-row-block-icon{
+        &:hover .pricing__items-card-row-list-text {
             color: $color-white;
         }
 
-        
+        &:hover .pricing__items-card-first-title {
+            color: $color-white;
+        }
+
+        &:hover {
+            background-color: $color-button;
+        }
+
+        &:hover .pricing__button {
+            background-color: $color-white;
+            color: $color-button;
+        }
+
+        &:hover .pricing__items-card-row-block-title {
+            color: $color-white;
+        }
+
+        &:hover .pricing__items-card-first-text {
+            color: $color-white;
+        }
+
+        &:hover .pricing__items-card-row-icon {
+            color: $color-white;
+        }
+
+        &:hover .pricing__items-card-row-block-icon {
+            color: $color-white;
+        }
+
+
         @media (max-width: $tablet) {
             margin: 0 auto;
-            
-         }
+
+        }
     }
 
     &__items-card-first-title {
@@ -559,42 +609,50 @@
         flex-direction: column;
         align-items: center;
         gap: 25px;
-        
+
     }
+
     &__items-card-row-icon,
-    &__items-card-row-block-icon{
+    &__items-card-row-block-icon {
         color: $color-blue;
     }
-    
-    
-    
-    
+
+
+
+
 }
 
+/*section pricing end*/
+
+/*section contact*/
 .contact {
 
     &__container {
         padding: 50px 0;
         margin: 153px 106px 52px;
+
         @media (max-width: $tablet) {
             margin: 0 35px 0 30px;
             padding: 100px 0;
-            
-         }
+
+        }
     }
 
-    &__title{
+    &__title {
         text-align: center;
-        margin-bottom: 17px;  
+        margin-bottom: 17px;
     }
-    &__text{
+
+    &__text {
         text-align: center;
         max-width: 532px;
         margin: 0 auto;
+
         @media (max-width: $tablet) {
-        margin: 0 36px 50px;       
-         }
+            margin: 0 36px 50px;
+        }
     }
+
     &__row-left {
         background: $color-white;
         border: 1px solid $color-border-2;
@@ -603,97 +661,109 @@
         width: 453px;
         height: 669px;
         padding: 52px 50px;
+
         @media (max-width: $tablet) {
             width: 330px;
             padding: 50px 35px 50px 25px;
-               
-         }
+
+        }
     }
 
-    &__row-left-title{
+    &__row-left-title {
         text-align: center;
         margin-bottom: 45px;
     }
-    
-    &__row{
+
+    &__row {
         display: flex;
         gap: 50px;
         justify-content: center;
         padding: 50px 0;
+
         @media (max-width: $tablet) {
             flex-direction: column-reverse;
-            
-            
-         }
+
+
+        }
     }
-    &__row-right-items{
+
+    &__row-right-items {
         display: flex;
         justify-content: center;
         gap: 15px;
         max-width: 725px;
+
         @media (max-width: $tablet) {
             width: 358px;
             flex-direction: column;
             align-items: flex-start;
-            
-         }
+
+        }
 
     }
+
     &__row-right-items-address,
     &__row-right-items-phone,
-    &__row-right-items-mail{
+    &__row-right-items-mail {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;  
+        gap: 10px;
+
         @media (max-width: $tablet) {
             flex-direction: row;
             align-items: flex-start;
-            
-         }
+
+        }
     }
 
-    &__row-right-items-address-text{
+    &__row-right-items-address-text {
         text-align: center;
         max-width: 313px;
+
         @media (max-width: $tablet) {
             text-align: start;
-            
-         }
+
+        }
     }
-    &__row-right-items-mail-text{
-       margin-top: 10px;
-       @media (max-width: $tablet) {
-        margin: 0;
-        
-     }
+
+    &__row-right-items-mail-text {
+        margin-top: 10px;
+
+        @media (max-width: $tablet) {
+            margin: 0;
+
+        }
     }
-    &__row-right-map{
+
+    &__row-right-map {
         margin: 50px 104px;
         max-width: 516px;
+
         @media (max-width: $tablet) {
             display: none;
-            
-         }
+
+        }
     }
 
     &__row-right-link {
         display: flex;
         gap: 24px;
         padding: 10px;
+
         @media (max-width: $tablet) {
-           margin-top: 50px;
-           justify-content: center;
-            
-         }
+            margin-top: 50px;
+            justify-content: center;
+
+        }
 
     }
 
     &__row-right-link-item-1 {
         color: $color-button;
         transition: transform 0.25s;
-        
-        
+
+
         &:hover {
             transform: scale(1.1);
             color: $color-blue-1;
@@ -701,3 +771,5 @@
         }
     }
 }
+
+/*section contact end*/
