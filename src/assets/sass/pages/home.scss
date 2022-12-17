@@ -160,15 +160,14 @@
         position: absolute;
         left: 495.3px;
         top: 235.3px;
+        
 
 
-       
 
         @media (max-width: $tablet) {
             width: 61px;
             height: 61px;
-            left: 118px;
-            top: 104px;
+            
             transform:translate(-50%, -50%)
 
         }
